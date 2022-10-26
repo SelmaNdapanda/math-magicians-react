@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.css";
-import calculate from "../logic/calculate.js";
+import React from 'react';
+import './App.css';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -24,7 +24,11 @@ class Calculator extends React.Component {
       <>
         <div className="container">
           <div className="display" id="display">
-            {total} {operation} {next}
+            {total}
+            {' '}
+            {operation}
+            {' '}
+            {next}
           </div>
           <div className="keypads">
             <button type="button" onClick={this.clickHandler} className="left-btns" id="clear">AC</button>
