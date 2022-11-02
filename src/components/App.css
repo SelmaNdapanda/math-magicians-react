@@ -2,19 +2,126 @@
 
 * {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-body {
+/* header */
+.nav-header {
   display: flex;
-  justify-content: center;
+  width: 100vh;
+  position: fixed;
+  padding: 20px 20px;
+  top: 0;
+  color: #808080;
+  gap: 20%;
+}
+
+.nav-header h1 {
+  color: #808080;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.nav-bar {
+  display: flex;
   align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #808080;
+  font-size: 25px;
+  margin-right: 5%;
+}
+
+.nav-link:hover {
+  color: #c7c6c6;
+  cursor: pointer;
+}
+
+.nav-link:focus {
+  color: rgba(228, 125, 29, 0.836);
+  text-decoration: underline;
+}
+
+/* Homepage */
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 24px;
+  text-align: center;
+  margin-top: 10%;
+  color: rgba(228, 125, 29, 0.836);
+}
+
+.intro {
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 70px 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.link {
+  color: #808080;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+/* Footer */
+.footer {
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #808080;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.copyright h4 {
+  font-size: 25px;
+}
+
+.copyright p {
+  font-size: 20px;
+}
+
+/* Calculator */
+.calculator-page {
+ display: flex;
+ width: 100%;
+ align-items: center;
+ justify-content: center;
+ gap: 20%;
+}
+
+.calc-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: rgba(228, 125, 29, 0.836);
+  padding-left: 0;
+  transform: translate(-100%, -600%);
 }
 
 .container {
   top: 50%;
-  left: 50%;
+  padding-right: 0;
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(85%, -50%);
   margin: 0 auto;
   text-align: center;
   background: #808080;
@@ -63,3 +170,27 @@ button {
 .right-btns {
   background: rgba(228, 125, 29, 0.836);
 }
+
+/* Quote Page */
+.quote {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 15%;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(228, 125, 29, 0.836);
+}
+
+.quote p {
+  font-size: 30px;
+  padding: 12px;
+}
+
+.name {
+  font-size: 20px;
+  font-style: italic;
+  padding: 12px;
+}
+
+
