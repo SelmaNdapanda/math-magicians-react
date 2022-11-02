@@ -102,11 +102,11 @@
 
 /* Calculator */
 .calculator-page {
- display: flex;
- width: 100%;
- align-items: center;
- justify-content: center;
- gap: 20%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
 }
 
 .calc-title {
@@ -192,5 +192,3 @@ button {
   font-style: italic;
   padding: 12px;
 }
-
-

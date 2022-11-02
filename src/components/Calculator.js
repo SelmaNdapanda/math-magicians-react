@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./App.css";
-import calculate from "../logic/calculate";
+import React, { useState } from 'react';
+import './App.css';
+import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [calc, setCalc] = useState({ total: 0, operation: null, next: null });
@@ -12,10 +12,14 @@ const Calculator = () => {
   return (
     <>
       <div className="calculator-page">
-        <h2 className="calc-title">Let's do some Math!</h2>
+        <h2 className="calc-title">Lets do some Math!</h2>
         <div className="container">
           <div className="display" id="display">
-            {calc.total} {calc.operation} {calc.next}
+            {calc.total}
+            {' '}
+            {calc.operation}
+            {' '}
+            {calc.next}
           </div>
           <div className="keypads">
             <button
@@ -40,8 +44,9 @@ const Calculator = () => {
               className="left-btns mod"
               name="%"
             >
-              {" "}
-              %{" "}
+              {' '}
+              %
+              {' '}
             </button>
             <button
               type="button"
@@ -49,8 +54,9 @@ const Calculator = () => {
               className="right-btns div"
               name="/"
             >
-              {" "}
-              &divide;{" "}
+              {' '}
+              &divide;
+              {' '}
             </button>
             <button
               type="button"
@@ -58,8 +64,9 @@ const Calculator = () => {
               className="left-btns"
               name="7"
             >
-              {" "}
-              7{" "}
+              {' '}
+              7
+              {' '}
             </button>
             <button
               type="button"
@@ -67,8 +74,9 @@ const Calculator = () => {
               className="left-btns"
               name="8"
             >
-              {" "}
-              8{" "}
+              {' '}
+              8
+              {' '}
             </button>
             <button
               type="button"
@@ -76,8 +84,9 @@ const Calculator = () => {
               className="left-btns"
               name="9"
             >
-              {" "}
-              9{" "}
+              {' '}
+              9
+              {' '}
             </button>
             <button
               type="button"
@@ -85,8 +94,9 @@ const Calculator = () => {
               className="right-btns times"
               name="*"
             >
-              {" "}
-              x{" "}
+              {' '}
+              x
+              {' '}
             </button>
             <button
               type="button"
@@ -94,8 +104,9 @@ const Calculator = () => {
               className="left-btns"
               name="4"
             >
-              {" "}
-              4{" "}
+              {' '}
+              4
+              {' '}
             </button>
             <button
               type="button"
@@ -103,8 +114,9 @@ const Calculator = () => {
               className="left-btns"
               name="5"
             >
-              {" "}
-              5{" "}
+              {' '}
+              5
+              {' '}
             </button>
             <button
               type="button"
@@ -112,8 +124,9 @@ const Calculator = () => {
               className="left-btns"
               name="6"
             >
-              {" "}
-              6{" "}
+              {' '}
+              6
+              {' '}
             </button>
             <button
               type="button"
@@ -121,8 +134,9 @@ const Calculator = () => {
               className="right-btns minus"
               name="-"
             >
-              {" "}
-              -{" "}
+              {' '}
+              -
+              {' '}
             </button>
             <button
               type="button"
@@ -130,8 +144,9 @@ const Calculator = () => {
               className="left-btns"
               name="1"
             >
-              {" "}
-              1{" "}
+              {' '}
+              1
+              {' '}
             </button>
             <button
               type="button"
@@ -139,8 +154,9 @@ const Calculator = () => {
               className="left-btns"
               name="2"
             >
-              {" "}
-              2{" "}
+              {' '}
+              2
+              {' '}
             </button>
             <button
               type="button"
@@ -148,8 +164,9 @@ const Calculator = () => {
               className="left-btns"
               name="3"
             >
-              {" "}
-              3{" "}
+              {' '}
+              3
+              {' '}
             </button>
             <button
               type="button"
@@ -157,8 +174,9 @@ const Calculator = () => {
               className="right-btns plus"
               name="+"
             >
-              {" "}
-              +{" "}
+              {' '}
+              +
+              {' '}
             </button>
             <button
               type="button"
@@ -166,8 +184,9 @@ const Calculator = () => {
               className=" left-btns zero"
               name="0"
             >
-              {" "}
-              0{" "}
+              {' '}
+              0
+              {' '}
             </button>
             <button
               type="button"
@@ -175,8 +194,9 @@ const Calculator = () => {
               className="left-btns"
               name="."
             >
-              {" "}
-              .{" "}
+              {' '}
+              .
+              {' '}
             </button>
             <button
               type="button"
@@ -184,8 +204,9 @@ const Calculator = () => {
               className="right-btns"
               name="="
             >
-              {" "}
-              ={" "}
+              {' '}
+              =
+              {' '}
             </button>
           </div>
         </div>

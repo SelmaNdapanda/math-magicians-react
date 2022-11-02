@@ -1,12 +1,12 @@
-import React from "react";
-import Calculator from "./components/Calculator";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Quote from "./pages/Quote";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Calculator from './components/Calculator';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Quote from './pages/Quote';
 
-/*eslint-disable-next-line react/prefer-stateless-function */
+/* eslint-disable-next-line react/prefer-stateless-function */
 class App extends React.Component {
   render() {
     return (
@@ -14,9 +14,9 @@ class App extends React.Component {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/calculator' element={<Calculator />} />
-            <Route path='/quote' element={<Quote />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/calculator" element={<Calculator />} />
+            <Route path="/quote" element={<Quote />} />
           </Routes>
           <Footer />
         </BrowserRouter>
