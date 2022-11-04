@@ -14,7 +14,7 @@
   
 ## Live Demo (if available)
 
-https://math-react-172329.netlify.app](https://math-react-172329.netlify.app)
+[https://math-react-172329.netlify.app](https://math-react-172329.netlify.app)
 
 ## Getting Started
 
