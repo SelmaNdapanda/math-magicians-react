@@ -9,12 +9,12 @@
 - JavaScript
 - React
 - Linters:
- - Stylelint, Lighthouse, Webhint
- - ESLint
+  - Stylelint, Lighthouse, Webhint
+  - ESLint
   
 ## Live Demo (if available)
 
-[**Live Demo Will be Available Soon 🚀**]()
+https://math-react-172329.netlify.app](https://math-react-172329.netlify.app)
 
 ## Getting Started
 
